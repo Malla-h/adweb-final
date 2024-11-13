@@ -44,7 +44,7 @@ app.get("/cursos", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello Mfs!");
+  res.send("SERVER RODANDO!");
 });
 
 app.listen(port, () => {
